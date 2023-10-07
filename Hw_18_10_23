@@ -1,0 +1,15 @@
+def EuclidNOD(a,b):
+  print (a,b)
+  while a!=0 and b!=0:
+    if a>b :
+      a=a%b
+    else:
+      b=b%a
+  print(a+b)    
+
+      
+
+EuclidNOD(25,0)
+EuclidNOD(25,10)
+EuclidNOD(17,33)
+EuclidNOD(72,14)
